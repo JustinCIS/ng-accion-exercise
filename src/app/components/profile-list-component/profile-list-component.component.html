@@ -1,0 +1,3 @@
+<div *ngFor="let profile of profileList$ | async" class="wrapper">
+  <img src="{{profile.imgUrl}}"> {{profile.name}}
+</div>
