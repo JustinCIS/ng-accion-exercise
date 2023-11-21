@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Profile } from 'src/app/model/profile';
-import { ProfileService } from 'src/app/services/profile.service';
+import { Profile } from '../../model/profile';
+import { ProfileService } from '../../services/profile.service';
 
 @Component({
   selector: 'app-profile-list-component',
